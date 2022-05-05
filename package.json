@@ -1,13 +1,13 @@
 {
-  "name": "near-validator-openshards-poolv1-near",
-  "version": "0.1.0",
-  "author": "Aaron Luhning",
-  "repository": "https://github.com/VitalPointAI/subgraph-openshards-poolv1-near.git",
+  "name":"near-validator-foundry-poolv1-near",
+  "name":"near-validator-foundry-poolv1-near",
+   "author": "Emmitt Luhning",
+  "repository": "https://github.com/VitalPointAI/subgraph-foundry-poolv1-near.git",
   "license": "MIT",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy vitalpointai/openshardsvalidator --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/"
+    "deploy": "graph deploy vitalpointai/foundryvalidator --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "0.29.0",
