@@ -1,6 +1,6 @@
 specVersion: 0.0.4
-description: NEAR Validator - openshards.poolv1.near # the name of the subgraph
-repository: https://github.com/VitalPointAI/subgraph-openshards-poolv1-near.git # repo where subgraph project is stored
+description: NEAR Validator - staking-power.poolv1.near
+repository: https://github.com/VitalPointAI/subgraph-staking-power-poolv1-near.git
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,8 +8,8 @@ dataSources:
     name: receipts # could also be blocks
     network: near-mainnet # can choose near-mainnet or near-testnet
     source:
-      account: openshards.poolv1.near # contract account you want to pull data from
-      startBlock: 15126129
+      account: staking-power.poolv1.near
+      startBlock: 52920317
     mapping:
       apiVersion: 0.0.5
       language: wasm/assemblyscript
